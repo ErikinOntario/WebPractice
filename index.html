@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Site</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb; /* Light background for contrast */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Your Name / Project Name</h1>
+            <nav class="space-x-4">
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-150">About</a>
+                <a href="#projects" class="text-gray-600 hover:text-indigo-600 transition duration-150">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition duration-150">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- Hero Section -->
+        <section id="hero" class="bg-indigo-600 text-white py-20 sm:py-32">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-4xl sm:text-6xl font-extrabold mb-4">Hello World! Welcome to my Page.</h2>
+                <p class="text-xl sm:text-2xl font-light mb-8 max-w-3xl mx-auto">
+                    This is your brand new, fully responsive landing page hosted entirely on GitHub Pages. Edit this content to introduce yourself or your project!
+                </p>
+                <a href="#projects" class="inline-block bg-white text-indigo-600 font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                    View My Work
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-16 sm:py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+                    <div class="lg:col-span-6">
+                        <h3 class="text-3xl font-bold text-gray-800 mb-4 border-b-2 border-indigo-500 pb-2 inline-block">About Me/Us</h3>
+                        <p class="mt-4 text-lg text-gray-600 leading-relaxed">
+                            I'm passionate about building things on the web. I focus on creating clean, efficient, and user-friendly interfaces. GitHub Pages allows me to share my work easily with the world without worrying about complex hosting setups.
+                        </p>
+                        <p class="mt-4 text-lg text-gray-600 leading-relaxed">
+                            My skills include front-end development, using modern frameworks, and crafting custom experiences. Let's collaborate!
+                        </p>
+                    </div>
+                    <div class="mt-10 lg:mt-0 lg:col-span-6 flex justify-center items-center">
+                        <!-- Placeholder Image (Responsive) -->
+                        <img class="rounded-xl shadow-2xl object-cover w-full h-auto max-w-md lg:max-w-full"
+                             src="https://placehold.co/600x400/4f46e5/ffffff?text=Your+Profile+Picture"
+                             alt="Profile Placeholder Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-16 sm:py-24 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h3 class="text-3xl font-bold text-gray-800 mb-10 text-center">Featured Projects</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Project Card 1 -->
+                    <div class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-indigo-300 transition duration-300 transform hover:-translate-y-1">
+                        <div class="p-6">
+                            <h4 class="text-xl font-semibold text-gray-900 mb-2">Project Title One</h4>
+                            <p class="text-gray-600 text-sm mb-4">A brief description of this cool project, detailing the technologies used and its purpose.</p>
+                            <span class="inline-block bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded-full">HTML/CSS</span>
+                            <a href="#" class="mt-4 block text-indigo-600 hover:text-indigo-800 font-medium">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-indigo-300 transition duration-300 transform hover:-translate-y-1">
+                        <div class="p-6">
+                            <h4 class="text-xl font-semibold text-gray-900 mb-2">Project Title Two</h4>
+                            <p class="text-gray-600 text-sm mb-4">This project demonstrates advanced concepts and showcases my skills in JavaScript.</p>
+                            <span class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">JavaScript</span>
+                            <a href="#" class="mt-4 block text-indigo-600 hover:text-indigo-800 font-medium">View Live Demo &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-indigo-300 transition duration-300 transform hover:-translate-y-1">
+                        <div class="p-6">
+                            <h4 class="text-xl font-semibold text-gray-900 mb-2">Project Title Three</h4>
+                            <p class="text-gray-600 text-sm mb-4">A simple static site built for speed and accessibility using modern best practices.</p>
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Design</span>
+                            <a href="#" class="mt-4 block text-indigo-600 hover:text-indigo-800 font-medium">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 sm:py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">Get in Touch</h3>
+                <p class="text-lg text-gray-600 mb-8">
+                    I'm always open to new opportunities and interesting conversations.
+                </p>
+                <a href="mailto:your.email@example.com" class="inline-flex items-center justify-center bg-indigo-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-indigo-700 transition duration-300">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-2 4v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"></path></svg>
+                    Send Email
+                </a>
+                <div class="mt-8 space-x-4">
+                    <a href="https://github.com/yourusername" target="_blank" class="text-gray-400 hover:text-gray-700 transition duration-150">
+                        <!-- GitHub Icon (Inline SVG for simplicity) -->
+                        <svg class="w-8 h-8 inline-block" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.418 2.867 8.18 6.83 9.537.49.09.664-.233.664-.518 0-.256-.009-.933-.014-1.83-2.782.605-3.369-1.343-3.369-1.343-.456-1.157-1.112-1.463-1.112-1.463-.909-.619.069-.607.069-.607 1.002.07 1.53.94 1.53.94.888 1.528 2.336 1.087 2.903.83.09-.646.349-1.087.635-1.336-2.2-.254-4.515-1.107-4.515-4.908 0-1.084.387-1.975 1.026-2.672-.102-.254-.445-1.267.097-2.637 0 0 .837-.268 2.742 1.025.794-.22 1.636-.33 2.502-.334.866.004 1.708.114 2.502.334 1.905-1.293 2.742-1.025 2.742-1.025.542 1.37.199 2.383.097 2.637.64.697 1.026 1.588 1.026 2.672 0 3.81-2.32 4.65-4.524 4.901.357.307.674.912.674 1.84 0 1.33-.012 2.4-0.012 2.724 0 .287.173.613.669.517C21.134 20.197 24 16.435 24 12.017 24 6.484 19.523 2 14 2h-2z" clip-rule="evenodd"></path></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="text-gray-400 hover:text-gray-700 transition duration-150">
+                        <!-- LinkedIn Icon (Placeholder/Mock SVG) -->
+                        <svg class="w-8 h-8 inline-block" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.353-.024-3.085-1.875-3.085-1.876 0-2.167 1.47-2.167 3.006v5.648H9.257V9.45H12.6v1.545h.047c.48-1.036 1.65-2.09 3.42-2.09 3.662 0 4.34 2.413 4.34 5.548l-.004 6.009zM5.901 7.917c-1.22 0-2.21-1.002-2.21-2.23 0-1.23.99-2.23 2.21-2.23s2.209 1.002 2.209 2.23c0 1.228-.988 2.23-2.209 2.23zm-.044-2.317c.026 0 .044-.002.07-.004.053-.004.103-.008.156-.008 1.18 0 2.138.96 2.138 2.14 0 1.18-0.958 2.14-2.138 2.14-1.17 0-2.128-.96-2.128-2.14 0-1.18 0.958-2.14 2.128-2.14zM4.09 20.452h3.666V9.45H4.09v11.002z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            &copy; 2024 Your Name/Company. Hosted on GitHub Pages.
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+nitial website setup"
